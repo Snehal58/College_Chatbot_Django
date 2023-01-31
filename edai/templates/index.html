@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href='{% static 'style.css' %}' type='text/css'>
+    <link rel="stylesheet" href='{% static 'typing.css' %}' type='text/css'>
+    <link rel="stylesheet" href='{% static 'typing.css' %}' type='text/css'>
+    <title>VIT Chatbox</title>
+</head>
+<body onload="down()">
+    <div class="container" >
+        <div class="chatbox" >
+            <div class="chatbox__support" >
+                <div class="chatbox__header">
+                    <div class="chatbox__image--header">
+                        
+                        <img src="{% static 'vit1.png' %}" alt="" style="border-radius: 50%;" >
+
+                    </div>
+                    <div class="chatbox__content--header" >
+                        <h4 class="chatbox__heading--header"> VIT's Chatbot</h4>
+                        <p class="chatbox__description--header">Feel free to ask your queries</p>
+                    </div>
+                </div>
+                <div class="chatbox__messages" style="overflow-y: auto; height:340px;" id="box">
+                    <script>
+                        function down(){
+                            var messageBody = document.querySelector('#box');
+                            messageBody.scrollTop = messageBody.scrollHeight - messageBody.clientHeight;
+                        }
+                        
+                    </script>
+                    
+                    <div>
+                        <div class="messages__item messages__item--visitor">
+                            Welcome
+                        </div>
+                        {% for msg in bot %}
+                        
+                        {% if forloop.counter|divisibleby:"2"  %}
+                        <div class="messages__item messages__item--visitor" >
+                            {{msg}}
+                        </div>
+                        {% else %}
+                        
+                        <div class="messages__item messages__item--operator">
+                            {{ msg }}
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                    
+
+                    </div>
+                </div>
+                <div class="chatbox__footer">
+             
+                    <form action="handle" method="post" >
+                        {% csrf_token %}
+                        <input type="text" placeholder="Write a message..." id="msg" name="msg" style="overflow-y: auto;">
+                        <span></span><span></span><span></span><span></span>
+                        <input class="chatbox__send" type="submit" name="Send"> 
+                    </form> 
+                    
+                </div>
+            </div>
+            <!-- <div class="chatbox__button">
+                <button><img src="{% static 'chatbox-icon.svg' %}" alt=""></button>
+            </div> -->
+        </div>
+    </div>
+    {% comment %} <script>
+        $SCRIPT_ROOT = {{ request.script_root|toJSON() }};
+    </script> {% endcomment %}
+
+    <script src="{% static 'Chat.js' %}"></script>
+    <script src="{% static 'app.js' %}"></script>
+
+</body>
+</html>

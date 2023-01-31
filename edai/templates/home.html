@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIT CHATBOT</title>
+    <link rel="stylesheet" href='{% static 'style.css' %}' type='text/css'>
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- chat box -->
+        <div class="chat-box">
+            <!-- client -->
+            <div class="client">
+                <img src="{% static 'logo.png' %}" alt="logo" />
+                <div class="client-info">
+                    <h2>VIT CHATBOT</h2>
+                    <p>online</p>
+                </div>
+            </div>
+
+            <!-- main chat section -->
+            <div class="chats">
+                <div class="client-chat">Hi!</div>
+                <div class="my-chat">Hi!</div>
+                <div class="client-chat">How can i help you?</div>
+                <div class="my-chat">How you create this chat box?</div>
+                <div class="client-chat">Watch complete video for your answer.</div>
+            </div>
+
+            <!-- input field section -->
+            <div class="chat-input">
+                <input type="text" placeholder="Enter Message" />
+                <button class="send-btn">
+                    <img src="{% static 'send.png' %}" alt="send-btn">
+                </button>
+            </div>
+        </div>
+
+        <!-- button -->
+        <div class="chat-btn">
+            <img src="{% static 'Circle-icons-chat.svg.png' %}" alt="chat box icon btn">
+        </div>
+    </div>
+
+    <script src="{% static 'jquery-3.4.1.min.js' %}"></script>
+    <script src="{% static 'script.js' %}"></script>
+</body>
+
+</html>
