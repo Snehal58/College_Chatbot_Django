@@ -1,0 +1,162 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "fees",
+        "patterns": [
+          "What is fee structure at VIT Pune ?",
+          "How much fees we need to pay at the time of admission ?",
+          "Fees for Open students ?",
+          "How much fees for caste?"
+        ],
+        "responses": [
+          "You can visit the site https://www.vit.edu/admissions/fees-structure for fees related information if you have any query you can send a mail to accounts@vit.edu",
+          "You can visit the site https://www.vit.edu/admissions/fees-structure for fees related information if you have any query you can send a mail to accounts@vit.edu",
+          "You can visit the site https://www.vit.edu/admissions/fees-structure for fees related information if you have any query you can send a mail to accounts@vit.edu",
+          "You can visit the site https://www.vit.edu/admissions/fees-structure for fees related information if you have any query you can send a mail to accounts@vit.edu"
+
+        ]
+      },
+      {
+        "tag": "Admission",
+       "patterns": [
+         "What is the eligibility for getting admission for F.Y.B. Tech. in Vishwakarma Institute of Technology? ",
+         "What is the eligibility Criteria?",
+         "How can we take admission in VIT?"
+       ],
+       "responses": [
+         "The admission of F.Y B. Tech. students in Vishwakarma Institute of Technology, Pune (A)For Maharashtra State candidate (i) Passed HSC or its equivalent examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry or Biotechnology or Biology or Technical or Vocational subjects, and obtained at least 50% marks (at least 45% marks, in case of Backward class categories and Persons with Disability candidates belonging to Maharashtra State only) in the above subjects Or taken together; (ii) Passed Diploma in Engineering and Technology and obtained at least 50% marks (at least 45% marks, in case of Backward class categories and Persons with Disability candidates Or belonging to Maharashtra State only); (iii) Passed B.Sc. Degree from a Recognized University as defined by UGC and obtained at least 50% marks (at least 45% marks, in case of Backward class categories and Persons with Disability candidates belonging to Maharashtra State only); (iv) Obtained score in MHT-CET 2019 conducted by the Competent Authority. (B)All India Candidature Candidates, Jammu and Kashmir Migrant Candidates (i) The Candidate should be an Indian National; (ii)Passed HSC or its equivalent examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry or Biotechnology or Biology or Technical or Vocational subjects and obtained at least 50% marks (at least 45% marks, in case of Backward class categories and Persons with Disability candidates belonging to Maharashtra State only) Or in the above subjects taken together; (iii) Passed Diploma in Engineering and Technology and obtained at least 50% marks (at least 45% marks, in case of Backward class categories and Persons with Disability candidates Or belonging to Maharashtra State only); (iv) Passed B.Sc. Degree from a Recognized University as defined by University Grants Commission and obtained at least 50% marks (at least 45% marks, in case of Backward class categories and Persons with Disability candidates belonging to Maharashtra State only); (v)Obtained score in MHT-CET 2019 or JEE 2019 Main Paper I.",
+         "The admission of F.Y B. Tech. students in Vishwakarma Institute of Technology, Pune (A)For Maharashtra State candidate (i) Passed HSC or its equivalent examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry or Biotechnology or Biology or Technical or Vocational subjects, and obtained at least 50% marks (at least 45% marks, in case of Backward class categories and Persons with Disability candidates belonging to Maharashtra State only) in the above subjects Or taken together; (ii) Passed Diploma in Engineering and Technology and obtained at least 50% marks (at least 45% marks, in case of Backward class categories and Persons with Disability candidates Or belonging to Maharashtra State only); (iii) Passed B.Sc. Degree from a Recognized University as defined by UGC and obtained at least 50% marks (at least 45% marks, in case of Backward class categories and Persons with Disability candidates belonging to Maharashtra State only); (iv) Obtained score in MHT-CET 2019 conducted by the Competent Authority. (B)All India Candidature Candidates, Jammu and Kashmir Migrant Candidates (i) The Candidate should be an Indian National; (ii)Passed HSC or its equivalent examination with Physics and Mathematics as compulsory subjects along with one of the Chemistry or Biotechnology or Biology or Technical or Vocational subjects and obtained at least 50% marks (at least 45% marks, in case of Backward class categories and Persons with Disability candidates belonging to Maharashtra State only) Or in the above subjects taken together; (iii) Passed Diploma in Engineering and Technology and obtained at least 50% marks (at least 45% marks, in case of Backward class categories and Persons with Disability candidates Or belonging to Maharashtra State only); (iv) Passed B.Sc. Degree from a Recognized University as defined by University Grants Commission and obtained at least 50% marks (at least 45% marks, in case of Backward class categories and Persons with Disability candidates belonging to Maharashtra State only); (v)Obtained score in MHT-CET 2019 or JEE 2019 Main Paper I."
+       ]
+
+      },
+      {
+        "tag": "Address",
+        "patterns": [
+          "Where does VIT, Pune located?",
+          "Where is VIT, Pune situated?",
+          "Can you give me the address of the VIT, Pune"
+ 
+         
+        ],
+        "responses": [
+       "Vishwakarma Institute of Technology, 666, Upper Indiranagar, Bibwewadi,  Pune, Maharashtra, INDIA - 411 037.",
+  "Vishwakarma Institute of Technology, 666, Upper Indiranagar, Bibwewadi, Pune, Maharashtra, INDIA - 411 037.",
+  "Vishwakarma Institute of Technology, 666, Upper Indiranagar, Bibwewadi, Pune, Maharashtra, INDIA - 411 037."
+ 
+        ]
+      },
+      {
+        "tag": "website",
+        "patterns": [
+          "Can I get the official website of VIT, Pune?",
+          "what is the official website for VIT Pune ?"
+ 
+ 
+        ],
+        "responses": [
+          "https://www.vit.edu/ "
+ 
+ 
+        ]
+      },
+      {
+        "tag": "Seat Distribution",
+        "patterns": [
+          "What is the Seat Distribution for each Branch?",
+          "What is the Seat Distribution for each Course"
+          
+        ],
+        "responses": [
+          "https://www.vit.edu/index.php/admissions/undergraduate-b-tech/courses-sanctioned-intake ",
+ 
+          "https://www.vit.edu/index.php/admissions/undergraduate-b-tech/courses-sanctioned-intake "
+ 
+        ]
+   },
+   {
+    "tag": "Engineering Branches",
+    "patterns": [
+      "How many branches are there in VIT, Pune",
+      "Can I get details about various Branches?"
+    ],
+    "responses": [
+      "https://www.vit.edu/index.php/departments You can visit this site for information."
+
+
+
+
+    ]
+  },     
+
+      {
+        "tag": "delivery",
+        "patterns": [
+          "How long does delivery take?",
+          "How long does shipping take?",
+          "When do I get my delivery?"
+        ],
+        "responses": [
+          "Delivery takes 2-4 days",
+          "Shipping takes 2-4 days"
+        ]
+      },
+      {
+        "tag": "campuslife",
+        "patterns": ["How is life at VIT Pune?", "VIT Pune Campue Life", "Is VIT Pune better than PICT?", "Is VIT Pune better than COEP?", "What is your review of Vishwakarma Institute of Technology, Pune?", "How does a typical day in VIT Pune pass by?"],
+        "responses": [
+          "I'll write about a typical day for any first year student of the morning batch.\n\nYou'll have classes between 8 am to 12 pm. If you're not lucky, all classes will be conducted. At this time, everybody's probably getting their lunch in the college canteen or some place near campus.\n\nEvery week you'll have an elective class scheduled sometime in the afternoon typically between 1 pm to 3 pm. You may have also have to attend a language class after the elective or on some other day between 1 pm to 3 pm.\n\nIf you're part of the Mirage Campus Film Society (they screen critically acclaimed movies that are not limited to Hollywood; they try to inculcate a sense of film appreciation among the members), you'll have a screening to attend at around 6 pm in the evening. Typically, the films last for two hours and you can go home after/skipping debate and discussion. You have around four screenings every month.\n\nFirst year Undergrads who've registered for The Robotics Forum(TRF) may have a 2 hour lecture arranged sometime in the evening around 6 pm. But these lectures are very few in number- not more than 4 classes.\n\nAt this point of time, some students may still be present in campus because: They've got to work for Robocon/ or they've got to prepare for Firodaya Karandak. These students typically leave campus around 1 am or sometimes don't. But mostly it's the seniors who are part of these teams.\n\nThere are other clubs which I've probably missed out. Most of these activities don't start before 6 pm anyway because the afternoon batch has classes scheduled until then.\nThe afternoon batch has its electives and language classes scheduled sometime between 8am to 12pm. And regular classes between 1 pm to 5:30 or maybe 6 pm with a one hour break.",
+          "I’ll be writing for 1st shift students.\n\nBased on time table, you get up at a specific time. Generally, freshers are highly excited, so for a college of 8 AM, you’ll probably end up getting up at 6:30 AM for changing the world by engineering. But as days pass by, the time difference shortens.\n\nYou are lucky if you have access to a vehicle, else climb the famous VIT slope. If the climbing is not enough, it gets even challenging in rainy days with water flowing in opposite direction and you walking.\n\nSome professors are chill so you can enter the class bit late. While some professor with extreme discipline, close the door at sharp 8:00, so gotta hurry. After 2–3 lectures of 1 hr each, a break for an hour. Get some breakfast with an option of 2 Canteens or a Poona Bakery. Attend a couple of lectures or lab sessions depending on the time table and then, either the day ends or some lectures still follow with another break.\n\nNot all the days are same. Some are as long as 8 hours or as short as 3 hours. We usually get free by 3 PM. Saturday is a holiday for SE, TE and BE. While for first years, General proficiency courses are conducted for 2 hours. The GP courses include Photography, Chess, Guitar, Violin, Yoga, Aerobics and few other interesting hobbies.\n\nComing to the days during exam, there are no Preparation Leaves in VIT, Pune for exams. But due to less syllabus to study, preparation starts a day before the actual exam irrespective of the gap between Exams.\n\nFrom attending the Director’s address on first day of college as fresher to attending the Farewell with classmates on the last day, 4 years (5 if YD :) of engineering pass by within blink of an eye.\n\nThank you. :)",
+          "Well if you are admitted to VIT pune, itself it means you are in one of the prestigious college among others in Pune and Maharastra as well.\n\nThe day that is spent in a college depends on which module are scheduled to attend the lectures. There are two modules schedule in vit, one in morning and other being in the afternoon. Morning lectures starts at 8:00 am and the college lectures including lab practicals lasts untill 12–1 pm. And if you are at afternoon module then the college starts at 1 pm and lasts untill 5–6 pm. This is the college timing of VIT (Saturday and Sunday off). There is free time after every two lectures and generally not more than 3 lectures are scheduled for the day.\n\nFor free time there are canteens,reading room, IT labs and libraries and the boat club. After two lectures generally there is gap of 1 hr for next lecture students used to sit at the boat club usually with friends. Or there some other places where one can spend some time with friends. If anyone is participating in any sports activity there is ground for play where students used to play games like football,cricket, vollyball after college is over. So, if you are at Vit enjoy the college life ,take part in the cultural activities,every semester there is Vishwakarandak organised in the 1st semester and Melange organised in the 2nd semester. There is much fun during those events. You should participate in the events held during that period. Some Lectures get cancelled also for the day during this period. You should enjoy the college and the campus life.",
+          "So I am SY student of VIT Pune (Elex), I was admitted during Covid times so our batch has never experienced the college life and it is almost certain that our third semester will also go online.\n\nBefore taking admission I had researched a lot about autonomous institutes. A lot of people said that it is relatively easy to score in Autonomous institutes. I remember I was so\n\nhappy after making it through. After 6 and a half months( yeah…They completed a year in six months) I regret taking admission here. I don’t know if my opinion had been different if college was offline but here are some of the points which I noticed.\n\nA lot of focus is given on projects. Which, I agree is good but faculties sometimes expect too much from students.\nAs we are in online mode teachers think that we are free 24/7 and reschedule their lectures according to their feasibility. Saying “VITs college timings are flexible” is another way of saying ”We can reschedule our lecture whenever the fu*k we want”.\nNearly all SPPU colleges have holidays on Saturday and Sunday and usually have 4 hours a day system. We are deprived of both these privileges. I am not saying that colleges should give holidays every now and then but in this online mode students can relax on Saturdays and Sundays. Also when you are expecting so much in projects it is definitely a good idea to give Saturdays and Sundays off.\nOur First year was very hectic. Especially second semester which was over in hardly three months. In these three months we were expected to do one capstone project of three credits and three course projects of one credit each. Home assignments, viva and that stuff is separate.\nNow in third semester we have One EDI project of 3 credits, A soft ware project of 4 credits and 4 course projects of total 4 credits, viva, ese, mse, presentations, lab assignments, group discussion, home assignments. Our faculty told me that EDI project must be hardware. We are a group of five and all five members are from different cities in Maharashtra. How the hell are we going to do a Hardware project.\nNormally between two years you get a sufficient vacation in which you can do internships. We were generously granted 21 days of holiday between two years. Subtract one week from this because college gave various works in this time too. like making a video for your project and this and that. How can we apply for an internships with just two weeks in hand?\nI don’t know about others but getting into VIT has turned into a horrific and depressing experience for me when it was supposed to be a blissful one. I regret getting into this college. I am suffering from sleep deprivation. I have started fearing the subjects and now I absolutely hate to even open my laptop. Lately I have also got suicidal thoughts. I don’t know about offline mode because I haven’t experienced it. College needs to understand that doing online studies is as much difficult as teaching in online mode.\n\nMaybe I am just too dumb for this college.",
+          "Life at VIT is not gigantically different from life at colleges at par with it, like MIT, COEP, PICT etc. Life here revolves mainly around three things - exams, fests and extra/co-ciricular activities. Lectures and college coaxing being constant ;-).\nSince the campus isnt enormous by relative standards, you get to see your friends from other departments on a regular basis. Friend groups formed in first year largely stay intact till the last year.\nEvery sem has five stressful times and two stressbusters. Class tests, midsems, end sem submissions, end sems and ofcourse results constitute the stressful times. First sem has Vishwakarandak and Diwali Break while second Sem has Melange and Vishwotsav.FY & SY students get to attend FE welcome in first sem while TY and B.Tech students attend Farewell. Also there is a plethora of other interesting events going on over the year such as Vishwaprenuer, TEDxVITPune etc.\nDoing something apart from attending (or not attending) lectures is highly recommended. Joining the students council, Zephyr (Dance), any sports team or various teams such as ROBOCON, BAJA, SUPRA etc will benefit you A LOT.\nThe crowd is a mixed one. Gym freaks, procastinators, simple studious chaps, worthless hooligans, metalheads, potterheads, math wizards, ace programmers, spoilt brats, hot chics,'council'ors, lovestruck couples etc name it and you have it here. Rarely does one not find his like.\nAcademics usually revolves around one thing - Pointer. In view of parents, professors and most of fellow collegemates, the pointer is what defines you here. Mind you, there is hardly any correlation between your intelligence and your pointer. You can have a genius and yet end up with a 6 pointer or you can be mediocre and get a 9. The system is hard work oriented rather than talent oriented. I think this is right approach. Half the professors have either done masters or PhD. Most of them are well read, cooperative and friendly.\nThe one thing that distinguishes VIT from most of other colleges is its autonomy i.e while it is under the University of Pune, it has the freedom to determine its own curriculum, calendar and marking system. This gives VITians an upper edge over other university students as there are lesser discrepancies over results, convenience w.r.t timings and calender and the curriculum is better tuned with the market and industry needs. You also enjoy nearly 4 months of holiday each academic year. Did i mention, you also get to brag a lot ;-).\nBoat club, minus 2, New poona Bakery, fruit centre, canteen, mech stairs are the popular hang out spots inside the college. Sadly there arent a lot of good spots outside the college. The slum area around the college does present a few problems and is the single biggest turn off for prospective students. Although there are nearly no malls, theatres or big brand fast food corners around, it doesn not deter the students from scouting the city to satisfy their urge for hanging out.\nApart from the college hostel which is decent itself, there are few good private hostels as well. However most of the non localite students live in rented flats or as PG. Lately a lot of good societies such as Laketown, Maurya society, Kumar Pruthvi have come up which accomodate well-off students in addition to cheap value-for-money societies for the rest. Thus finding good accomodation isnt such a herculean task.\nFinally coming to the USP of an Engineering college - Placements. The scenario in VIT is pretty good but dont give in to the hype. Average placement package is around 3-4 lac per annum while it varies from branch to branch. Computer/IT and E&Tc branches have the best placement opportunities. A lot of reputed companies do come here but dont expect mind boggling offers. However most of students go for higher education.\nSo overall VIT is a good college and ranks amongst the top in Maharashtra. Life here is fun and studies arent very stressful. it wont be as great as an IIT but it is certainly better than other engg colleges.",
+          "I am a third year student from VIT . I am a direct second year student . I was admitted during covid times. I haven't seen the college campus yet. I think I will get the college degree through online mode only.\n\nIn the aspect of academics college is not good. They only focus on research and IEEE publications. Teachers are good. Their teaching is also good no doubt. But I haven’t attended any single class ;) I just join class to give the attendance.\n\nComing to grading system they conduct Seminars, Group discussion , Course project , viva , Home assignment for each subject. This is really waste of time of the students life b’caz their is no use of these seminars and gd .For this seminar gd cp teachers ask students to do literature review & read atleast 10 to 15 IEEE latest research paper . This is the work of no use in which no one is interested at all but the poor students have to do these kinds of work.\n\nIf you want to live good happy life first of all don’t join VIT . If u r already in VIT Then don't take teachers instruction seriously , just ignore it.\n\nThe overall life in VIT is boring Your life goes in making projects ppts, reasearch papers. Their is a lot of burden on students.",
+          "Life at VIT Pune is pretty much simple and fun as well.\n\nI’ll write down the benefits first:\n\nWe usually were free by 2 pm, sometimes even by noon and only one day in the entire week would we stay until 4 pm for lectures/labs. We sometimes stayed in college by 8 pm as well, but only by choice. The time-table would usually be 8 am to 10 am lectures, 1 hour each, 10 minutes break and then a lab, 1 hour lunch break, another lecture till 2 pm and then leave. Afternoon sessions would begin at 12 and continue till six, with an hour break.\nThe syllabus and the curriculum are not a burden as they are designed by the professors in the college itself, there is a lot of time available for studying. 20% of the syllabus is for self study only for which the professors are ready to help always and usually the assignments are based on self study portion, so its easy to study.\nIt is compulsory to get a 6 month internship during the final year of engineering.\nWe used to get a lot of holidays, Diwali break would go on for almost 10–15 days, we got leaves in December as well for about 2 weeks and the summer breaks would be almost for 2 months. Instead of giving out study leaves before exams, we got a lot of relaxing breaks between each semester. Sometimes, the holidays were even adjusted to give us long weekends. So, we would work some Sundays and go home for the next 4–5 days. Also, Saturdays and Sundays would be a holiday unless any extra lecture is scheduled.\nSince we have completed the curriculum related part, lets get to extra curricular activities. There are various clubs in VIT Pune; Socials, Mathematics, Astronomy, Aesthetics, etc. VIT hosts two major events throughout the year; one is Vishwakarandak and other Melange. Vishwakarandak is interdepartmental competition, all the departments compete in various activities to win points and the one with maximum points gets glory. Melange is tech fest and is usually long day of work for the students followed by interesting stand-ups, concerts or other art performances. Keeping an attendance of 75% and above keeps you out of trouble.\nThe drawbacks/ the negative points:\n\nThe campus is very small and hence not a lot of activities happen within the campus. The ground is used for parking vehicles since they cannot be parked outside campus.\nThe area outside campus is scary and weird. The are slums at one side of the college. Hawker and drunk people roam around.\nThere are not many food options available on campus. To get good quality food one needs to walk down for almost a kilometer or order food. There are a few tiffin services available as well, but you need to be in some specific place at specific time everyday.\nThe security in and out of campus is not so great. During my 4 years a projector as well as a laptop was stolen from the department.",
+          "If you want to CHILL, VIT is perfect. You can attend few lectures and spend most of the time doing whatever you want, also even if college campus isn’t that big, you can chill anywhere in crowd or special places (College Canteen is famous place for chilling)\n\nI’ll keep it short (since everyone has posted in detail) if you come to VIT in first year engg, you have clubs (you will spend most of your time if you find something new), college festivals (alot of crazy shit), easiest exams (study what your teacher says and easy pizzy lemon squizzy ) and lots of vacations (yes, 2 months imagine! also u can take common off xD teachers collaborate there)\n\nLast but not least, job / placements : 90–95% placement in IT/Comp Dept with good salary, rest for ENTC is okay but for Mechanical, Chemical & Indus Prod, its tough but not impossible, still yeah if you are good, you’ll definitely get hired from this college.",
+          "Let me be blunt about this, if you are coming to VIT Pune for the campus life, you can pretty much forget about it. Firstly, VIT is located in what can be counted as among the most backward areas of Pune. If you want to live in close proximity to the college, you most likely will be living in a dump. People around the campus have little regard for traffic rules and cross roads as they please-leading to accidents which happen often. As for the college library-its beyond outdated and heavily under equipped. Try to procure a book from the library even two weeks before your exams, you’ll find them gone.\n\nSecondly, corruption abound. You think you have a fair chance at Melange and Vishwakarandak and all those techfests the college hosts? Well, think again. I have seen people getting into the final rounds of competitions just by ‘Bhai, entry dila de, dost ko aise karega?’. The prices for registration in any of those events is exorbitant with no regards for delivering value on what you paid. Oh, so you would complain to college authorities regarding the same? They have an even bigger hand in this underhandedness along with the student council themselves. You eventually come to realise the deep rooted nature of this and learn to live with it. Essentially, for the four years you spend here, if you take part in any social/technical activity, you’re essentially being ripped off.\n\nThirdly, the people themselves. This may be relevant only to the batch specific to which I was in (I was in the 17 pass out batch), but I found the mindset of the majority too marks-oriented to actually learn/innovate. What I mean by that is, people here emphasize getting their labs done as soon as possible (they’d memorize code, connections, etc, even get chits to copy) to any actual learning. I was perhaps wrong in expecting an environment conducive to learning, but I want to make sure that others go in with the same expectations as well and not fall prey to the tall claims they make (ranked among the top x private colleges in Maharashtra).\n\nIf you’re considering VIT Pune, I’d advise you to consider all the reasons I have stated above. If you’re already in, stand up against any injustice you see, stay focused and keep an open mind. Maybe you will have a better experience than I did."
+        ]
+      },
+      {
+        "tag": "funny",
+        "patterns": [
+          "Tell me a joke!",
+          "Tell me something funny!",
+          "Do you know a joke?"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+          "What did the buffalo say when his son left for college? Bison."
+        ]
+      }
+    ]
+  }
